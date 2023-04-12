@@ -18,21 +18,15 @@ eas login
 enter login details
 
 ## To create eas.json file
+use npx cross-env EAS_NO_VCS=1 if git is not installed in the system
 - npx cross-env EAS_NO_VCS=1 eas build:configure
 
 
 ## Change eas.json file to have android build
 "preview": {
       "distribution": "internal",
-
-
       "android":{
         "buildType": "apk"
-      },
-
-
-      "ios": {
-        "resourceClass": "m-medium"
       }
     },
 
