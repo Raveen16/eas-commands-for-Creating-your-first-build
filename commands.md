@@ -1,6 +1,9 @@
 ## Create a new application
 npx create-expo-app name
 
+## Change Directory 
+cd <appName>
+
 ## Check Output on Expo Go app
 npx expo start or npx expo start --tunnel
 
